@@ -107,11 +107,15 @@ sayilar.forEach(sayilar[i] % 3 === 0);{
     enbuyuk = i
 
   }
-  let ucebolunenlerintoplami = 
-  besyuzdenkucuksayilar,
-  siralisayilar,
+   let besyuzdenkucuksayilar = sayilar.filter(fonc)
+   function fonc (sayi){
+    return sayi < 500
+   }
+   let siralisayilar = sayilar.sort((a,b) => a-b),
   tekraredensayilar;
-  
+
+
+
   console.log(sayilar.length);
 
 // 3a çözümü
