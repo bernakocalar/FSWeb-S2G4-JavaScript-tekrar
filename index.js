@@ -38,6 +38,8 @@ const sayilar = [
 //Örneğin çözümü:
 function KareninAlani(kenaruzunlugu) {
   return kenaruzunlugu * kenaruzunlugu;
+  console.log(KareninAlani(10))
+
 }
 
 /* (Oto test yok) Yukarıdaki KareninAlani fonksiyonunu kenar uzunluğu = 10 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
@@ -50,8 +52,9 @@ function KareninAlani(kenaruzunlugu) {
 	4. Hesaplanan çemberin çevresi döndürülecektir.
 */
 
-function CemberinCevresi(/* kodlar buraya */) {
-  /* kodlar buraya */
+function CemberinCevresi(yarıcap) {
+  return (2* pi * yarıcap);
+console.log(CemberinCevresi(5))
 }
 
 /* (Oto test yok) Yukarıdaki CemberinCevresi fonksiyonunu yarıçap = 5 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
@@ -64,8 +67,9 @@ function CemberinCevresi(/* kodlar buraya */) {
 	4. Hesaplanan çemberin alanı döndürülecektir.
 */
 
-function CemberinAlani(/* kodlar buraya */) {
-  /* kodlar buraya */
+function CemberinAlani(yarıcap,pi) {
+  return pi* Math.pow(yaricap,2);
+  console.log(CemberinAlani(15));
 }
 
 /* (Oto test yok) Yukarıdaki CemberinAlani fonksiyonunu yarıçap = 15 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
@@ -89,10 +93,21 @@ function CemberinAlani(/* kodlar buraya */) {
 
 /*  (oto test yok) sayilar dizisi içinde kaç adet sayı olduğunu konsola yazdırın */
 
-let ucetambolunenler,
-  enkucuk,
-  enbuyuk,
-  ucebolunenlerintoplami,
+let ucetambolunenler = [];
+sayilar.forEach(sayilar[i] % 3 === 0);{
+  sayilar[i].push(ucetambolunenler)
+}
+  let enkucuk = 0
+  for(i=0 ; i < sayilar[i] ; i++ ){
+    enkucuk = i
+
+  }
+  let enbuyuk = 0
+  for(i=0 ; i > sayilar[i] ; i-- ){
+    enbuyuk = i
+
+  }
+  let ucebolunenlerintoplami = 
   besyuzdenkucuksayilar,
   siralisayilar,
   tekraredensayilar;
