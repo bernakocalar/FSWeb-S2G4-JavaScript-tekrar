@@ -111,6 +111,8 @@ sayilar.forEach(sayilar[i] % 3 === 0);{
   besyuzdenkucuksayilar,
   siralisayilar,
   tekraredensayilar;
+  
+  console.log(sayilar.length);
 
 // 3a çözümü
 
